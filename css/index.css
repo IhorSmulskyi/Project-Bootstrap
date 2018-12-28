@@ -1,35 +1,36 @@
-header .navbar{
+header .sticky{
+   position: -webkit-sticky;
   position: sticky;
   top: 0;
-
+  padding: 5px;
+  background-color: #cae8ca;
+  z-index:1;
 }
 header .AboutUsTitle{
-/*zmargin: 100px;*/
-
-    /*display: flex;*/
-    /*justify-content: center;*/
+  padding: 150px;
+  
+    
+    
 }
 header .AboutUsTitle .about{
     display: flex;
     justify-content: center;
+    font-size: 3rem;
+    
 }
 header .AboutUs{
     font-size: 4rem;
-    /* display: flex;*/
-    /*justify-content: center;*/
 }
 header .AboutUs p{
     font-size: 1rem;
-    /* display: flex;*/
-    /*justify-content: center ;*/
+  
 }
 div .servise_head p{
-    /*margin-top: 100px;*/
-    display: flex;
-    justify-content: center;
+    font-size: 3rem;
 }
 .servise{
     background-color: #e2fffe;
+    margin-bottom: 150px;
 }
 .our_services .card{
      background-color: #e2fffe;
@@ -38,8 +39,19 @@ div .servise_head p{
 .our_services .card i{
     font-size: 6rem;
 }
-.pricing_plan .proba{
-    
-    border-top: solid #212121;
-border-right:80vw solid transparent;
+.works p{
+    font-size: 3rem;
+}
+.our_works {
+    margin-bottom: 150px;
+}
+.our_works .card{
+    border:none;
+}
+
+.team{
+    margin-bottom: 150px;
+}
+#team {
+    font-size: 3rem;
 }
