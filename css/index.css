@@ -1,0 +1,45 @@
+header .navbar{
+  position: sticky;
+  top: 0;
+
+}
+header .AboutUsTitle{
+/*zmargin: 100px;*/
+
+    /*display: flex;*/
+    /*justify-content: center;*/
+}
+header .AboutUsTitle .about{
+    display: flex;
+    justify-content: center;
+}
+header .AboutUs{
+    font-size: 4rem;
+    /* display: flex;*/
+    /*justify-content: center;*/
+}
+header .AboutUs p{
+    font-size: 1rem;
+    /* display: flex;*/
+    /*justify-content: center ;*/
+}
+div .servise_head p{
+    /*margin-top: 100px;*/
+    display: flex;
+    justify-content: center;
+}
+.servise{
+    background-color: #e2fffe;
+}
+.our_services .card{
+     background-color: #e2fffe;
+    border:none;
+}
+.our_services .card i{
+    font-size: 6rem;
+}
+.pricing_plan .proba{
+    
+    border-top: solid #212121;
+border-right:80vw solid transparent;
+}
